@@ -58,7 +58,7 @@ namespace SeleniumLearning
                 TestContext.Progress.WriteLine(element);
             }
 
-            TestContext.Progress.WriteLine("After sorting");
+           
             a.Sort();
             foreach( String element in a )
             {
